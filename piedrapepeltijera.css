@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: auto;
+
+}
+
+input {
+    margin: 5px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+/* .btn {
+    margin-top: 10px;
+    padding: 5px;
+    border: 0.5px solid rgb(252, 84, 84);
+    background-color: rgb(0, 0, 0);
+    color: white;
+} */
+
+#piedra, #papel, #tijera {
+    width: 12%;
+    padding: 10px;
+    justify-content: center;   
+}
+
+#incognitoUsuario {
+    width: 20%;
+    margin-left: -500px;
+    margin-bottom: -120px;
+}
+
+#incognitoMaquina {
+    width: 20%;
+    margin-left: 500px;
+    margin-top: -168px;
+}
+
+#usuario {
+    margin-left: -500px;
+    margin-top: 10px;
+}
+
+#maquina {
+    margin-left: 600px;
+    margin-top: -42px;
+    padding-right: 85px;
+    
+}
+
+#vs {
+    margin-top: -30px;
+}
+
+.infoTotal {
+    background-color: rgb(206, 255, 232);
+    padding: 0,5px;
+}

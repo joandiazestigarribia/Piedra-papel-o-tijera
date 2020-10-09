@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Piedra, Papel o Tijera!</title>
+    <link rel="stylesheet" href="piedrapepeltijera.css">
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!-- <script type="text/javascript"> -->
+</head>
+<body>
+    <h1>¡Piedra, Papel o Tijera!</h1>
+    <!-- <table>
+        <tr>
+            <td>
+                piedra
+            </td>
+            <td>papel
+
+            </td>
+            <td>tijera
+
+            </td>
+        </tr>
+    </table> -->
+    <div class="container">
+        <div id="imagen">
+            <img src="image1.png" alt="" id="piedra">
+            <img src="image2.png" alt="" id="papel">
+            <img src="image3.png" alt="" id="tijera">
+        </div><br>
+    </div>
+    <label><input type="radio" name="opcion" class="opcion" value="1" checked onfocus="cambiarImagen(1)"></label>
+    <label><input type="radio" name="opcion" class="opcion" value="2" checked onfocus="cambiarImagen(2)"></label>
+    <label><input type="radio" name="opcion" class="opcion" value="3" checked onfocus="cambiarImagen(3)"></label>
+    <br><br>
+    <button class="btn" onclick="confirmarJuego();">¡Confirma tu juego!</button>
+    <section>
+        <div class="resultado">
+           <div>
+               <img src="incognito.png" id="incognitoUsuario"> 
+            </div>
+            <div>
+               <h3 id="vs">VS</h3>
+            </div>
+            <div>
+                <img src="incognito.png" id="incognitoMaquina"> 
+            </div>
+        </div>
+        <div class="info">
+            <h4 id="usuario">Tu jugada</h4>
+            <h4 id="maquina">Jugada de la maquina</h4>
+        </div>
+        <div class="infoTotal">
+            <h3 id="total">Resultado del juego:</h3>
+        </div>
+    </section>
+
+    <script src="piedrapapeltijera.js"></script>
+</body>
+</html>
